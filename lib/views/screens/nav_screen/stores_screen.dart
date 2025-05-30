@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sales_business_app/controllers/product_controller.dart';
 import 'package:sales_business_app/views/screens/CreateProductPage.dart';
-import 'package:sales_business_app/views/screens/add_product_screen.dart';
-import 'package:sales_business_app/views/screens/nav_screen/widgets/popular_product_widget.dart';
 import 'package:sales_business_app/views/screens/nav_screen/widgets/product_card_gridview.dart';
 import 'package:sales_business_app/views/screens/widgets/button_widget.dart';
 import '../../../models/product.dart';

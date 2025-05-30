@@ -6,7 +6,6 @@ import 'package:sales_business_app/views/screens/nav_screen/widgets/banner_widge
 import 'package:sales_business_app/views/screens/nav_screen/widgets/category_widget.dart';
 import 'package:sales_business_app/views/screens/nav_screen/widgets/grid_product_widget.dart';
 import 'package:sales_business_app/views/screens/nav_screen/widgets/header_widget.dart';
-import 'package:sales_business_app/views/screens/nav_screen/widgets/popular_product_widget.dart';
 import 'package:sales_business_app/views/screens/nav_screen/widgets/slider_widget.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import '../../../utils/Constants.dart';
@@ -28,21 +27,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    // Gọi hàm lấy dữ liệu ban đầu
-    // WidgetsBinding.instance.addPostFrameCallback((_) {
-    //   Provider.of<ContractFactoryServies>(context, listen: false)
-    //       .getCategoryProducts(
-    //           categoryNameSelected); // Gọi với danh mục mặc định
-    // }
-    // );
-    // _contractFactoryServies = ContractFactoryServies();
-    // _getCategoriesProduct();
+
   }
-  // Future<void> _getCategoriesProduct() async {
-  //
-  //   await _contractFactoryServies.getCategoryProducts(categoryNameSelected);
-  //
-  // }
 
   @override
   Widget build(BuildContext context) {

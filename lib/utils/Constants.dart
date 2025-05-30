@@ -20,7 +20,9 @@ class Constants {
   // final CONTRACT_ADDRESS = "0x5a7f23b2b209f4aeb0e0c41343f3cd8367309242";
   // final CONTRACT_ADDRESS = "0xa89b2ceb338485ac2a7d0765ecae37af62a67b9e";
   // final CONTRACT_ADDRESS = "0xe5747f557496554f780730df7c87d4c2a748f9eb";
-  final CONTRACT_ADDRESS = "0xe010bb29d365f0b2ab7328dcc69b6f70c26ed836";
+  // final CONTRACT_ADDRESS = "0xe010bb29d365f0b2ab7328dcc69b6f70c26ed836";
+  // final CONTRACT_ADDRESS = "0x39cabbbd033963b236e4395ebd3bc63e7ff76d5c";
+  final CONTRACT_ADDRESS = "0xddef2b9dab22501892af54f2fcd3b9ae8c791671";
 
   // final CONTRACT_ABI_PATH = "assets/abis/MarketplaceProducts.json";
   final CONTRACT_ABI_PATH = "images/abis/MarketplaceProducts.json";
@@ -45,8 +47,8 @@ class Constants {
   // final PINATA_API_SECRET_KEY ="6e6be430f9b28768c2fa678fe8a4c6dab48f2ed22191099e685713bac4d1e12b";
   // final PINATA_API_KEY = "2f0c21b4c1aa8e3fd541";
   // final PINATA_API_SECRET_KEY ="45b0beea3c49b6965fd08f1f2e86597afe54a392e278f38dc32a35baf409f2e2";
-  final PINATA_API_KEY = "f88db791bc0ced2ea883";
-  final PINATA_API_SECRET_KEY ="b7ff21416fa6d59d243902eda22e6bab147c8eea5f63613ea2f17fbd72ce633c";
+  final PINATA_API_KEY = "dc1bbf5783fbeee4cce5";
+  final PINATA_API_SECRET_KEY ="ce2e9735b016837f74f7fe6deba1bc4fb8c55d721b0bb5f2f64ee624e32dfe90";
 
 
 

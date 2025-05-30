@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sales_business_app/controllers/banner_controller.dart';
 import 'package:sales_business_app/views/screens/nav_screen/widgets/slider_widget.dart';
 import '../../../../models/banner.dart';
 

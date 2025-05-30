@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sales_business_app/services/ContractFactoryServies.dart';
-import 'package:sales_business_app/views/screens/auth_screen/login_screen.dart';
 import 'package:sales_business_app/views/screens/main_screen.dart';
 import 'package:sales_business_app/views/screens/nav_screen/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';

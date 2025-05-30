@@ -224,36 +224,36 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
                 ),
                 widget.product.owner.toString() != walletAddress
                     ? isLoading
-                    ? CircularProgressIndicator(
-                  color: constants.mainYellowColor,
-                )
-                    : customButtonWidget(() async {
-                  // Gọi hàm kiểm tra kết nối ví
-                  await _checkExistingConnection();
+                      ? CircularProgressIndicator(
+                    color: constants.mainYellowColor,
+                  )
+                      : customButtonWidget(() async {
+                    // Gọi hàm kiểm tra kết nối ví
+                    await _checkExistingConnection();
 
-                  // Kiểm tra nếu walletAddress tồn tại thì thực hiện mua
-                  if (walletAddress != null) {
-                    print('wallet_restore_address $walletAddress');
-                    try {
-                      await contractFactory.buyProduct(
-                        widget.product.id,
-                        walletAddress!,
-                        widget.product.price,
-                      );
-                      // ScaffoldMessenger.of(context).showSnackBar(
-                      //   SnackBar(
-                      //       content:
-                      //       Text('Mua sản phẩm thành công!')),
-                      // );
-                    } catch (e) {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                            content: Text('Lỗi khi mua sản phẩm: $e')),
-                      );
+                    // Kiểm tra nếu walletAddress tồn tại thì thực hiện mua
+                    if (walletAddress != null) {
+                      print('wallet_restore_address $walletAddress');
+                      try {
+                        await contractFactory.buyProduct(
+                          widget.product.id,
+                          walletAddress!,
+                          widget.product.price,
+                        );
+                        // ScaffoldMessenger.of(context).showSnackBar(
+                        //   SnackBar(
+                        //       content:
+                        //       Text('Mua sản phẩm thành công!')),
+                        // );
+                      } catch (e) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                              content: Text('Lỗi khi mua sản phẩm: $e')),
+                        );
+                      }
                     }
-                  }
-                }, 15, constants.mainBlackColor, "BUY NOW",
-                    constants.mainWhiteGColor, 150)
+                  }, 15, constants.mainBlackColor, "BUY NOW",
+                      constants.mainWhiteGColor, 150)
                     : Text(
                   "Can not Buy Yours",
                   style: TextStyle(
